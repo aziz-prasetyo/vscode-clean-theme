@@ -78,7 +78,7 @@
 		 * Get details at Custom CSS and JS Loader:
 		 * https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
 		 */
-        "file:///C:/Users/LEGION/.vscode/vscode-custom/styles.css",
-        "file:///C:/Users/LEGION/.vscode/vscode-custom/scripts.js"
+        "file:///${YOUR_PATH}/.vscode/vscode-custom/styles.css",
+        "file:///${YOUR_PATH}/.vscode/vscode-custom/scripts.js"
 	]
 }
