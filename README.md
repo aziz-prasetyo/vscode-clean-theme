@@ -31,28 +31,10 @@ Custom styles are applied to scrollbars, the sidebar, find widget, and other UI 
 
 ## Preview
 
-<div align="center">
-  <figure>
-    <img src="./assets/preview/welcome-screen.png" alt="Welcome Screen">
-    <figcaption>Welcome Screen</figcaption>
-  </figure>
-  </br>
-  <figure>
-    <img src="./assets/preview/welcome-screen-full.png" alt="Welcome Screen Full">
-    <figcaption>Welcome Screen Full</figcaption>
-  </figure>
-  </br>
-  <figure>
-    <img src="./assets/preview/editor-command-palette-close.png" alt="Editor Command Palette Close">
-    <figcaption>Editor Command Palette Close</figcaption>
-  </figure>
-  </br>
-  <figure>
-    <img src="./assets/preview/editor-command-palette-open.png" alt="Editor Command Palette Open">
-    <figcaption>Editor Command Palette Open</figcaption>
-  </figure>
-  </br>
-</div>
+![Welcome Screen](./assets/preview/welcome-screen.png)
+![Welcome Screen Full](./assets/preview/welcome-screen-full.png)
+![Editor Command Palette Close](./assets/preview/editor-command-palette-close.png)
+![Editor Command Palette Open](./assets/preview/editor-command-palette-open.png)
 
 ## Installation & Setup
 
