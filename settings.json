@@ -1,0 +1,84 @@
+{
+	/* Workbench */
+	"workbench.iconTheme": "catppuccin-frappe",
+	"workbench.productIconTheme": "fluent-icons",
+	"workbench.editorLargeFileConfirmation": 1024,
+	"workbench.editor.showTabs": "single",
+	"workbench.tree.indent": 16,
+	"workbench.startupEditor": "none",
+	"workbench.colorTheme": "Catppuccin Frappé",
+	"workbench.editor.empty.hint": "hidden",
+	"workbench.statusBar.visible": false,
+	"workbench.tips.enabled": false,
+	"workbench.sideBar.location": "right",
+	"workbench.tree.enableStickyScroll": false,
+	"workbench.tree.renderIndentGuides": "none",
+	"workbench.secondarySideBar.defaultVisibility": "hidden",
+	"workbench.layoutControl.enabled": false,
+	"workbench.navigationControl.enabled": false,
+
+	/* Breadcrumbs */
+	"breadcrumbs.enabled": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.filePath": "off",
+
+	/* Editor */
+	"editor.fontFamily": "'JetBrains Mono', 'Fira Code Retina'",
+	"editor.fontSize": 16,
+	"editor.fontWeight": "500",
+	"editor.lineHeight": 2,
+	"editor.lineNumbers": "relative",
+	"editor.folding": true,
+	"editor.glyphMargin": true,
+	"editor.guides.indentation": false,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.highlightActiveBracketPair": true,
+	"editor.guides.bracketPairsHorizontal": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+	"editor.unicodeHighlight.invisibleCharacters": false,
+	"editor.cursorStyle": "block",
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.minimap.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.stickyScroll.enabled": false,
+	"editor.smoothScrolling": true,
+	"editor.stickyScroll.scrollWithEditor": false,
+	"editor.fontLigatures": true,
+
+	/* Terminal */
+	"terminal.integrated.defaultProfile.osx": "zsh",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.defaultProfile.linux": "bash",
+	"terminal.integrated.fontFamily": "'MesloLGS NF', 'Hack Nerd Font'",
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.enableMultiLinePasteWarning": "always",
+	"terminal.integrated.cursorStyle": "block",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.fontLigatures.enabled": true,
+
+	/* Explorer */
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	/* Chat */
+	"chat.commandCenter.enabled": false,
+
+	/* Window */
+	"window.restoreFullscreen": true,
+    "window.zoomLevel": 1,
+	
+    /* VSCode Custom */
+    "vscode_custom_css.imports": [
+		/**
+		 * Add your custom CSS and JS files here.
+		 *
+		 * Get details at Custom CSS and JS Loader:
+		 * https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css
+		 */
+        "file:///C:/Users/LEGION/.vscode/vscode-custom/styles.css",
+        "file:///C:/Users/LEGION/.vscode/vscode-custom/scripts.js"
+	]
+}
