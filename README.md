@@ -1,6 +1,6 @@
-<header align="center">
+<div align="center">
     <h1>🎨VS Code Clean Theme🎨</h1>
-</header>
+</div>
 
 ## Description
 
@@ -144,6 +144,6 @@ If you run into any problems during setup or have questions, please feel free to
 
 ---
 
-<footer align="center">
+<div align="center">
     <p>Muhammad Aziz Prasetyo @ 2025</p>
-</footer>
+</div>
