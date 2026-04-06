@@ -1,78 +1,160 @@
 {
-	/* Workbench */
-	"workbench.iconTheme": "catppuccin-frappe",
-	"workbench.productIconTheme": "fluent-icons",
-	"workbench.editorLargeFileConfirmation": 1024,
-	"workbench.editor.showTabs": "single",
-	"workbench.tree.indent": 16,
-	"workbench.startupEditor": "none",
-	"workbench.colorTheme": "Catppuccin Frappé",
-	"workbench.editor.empty.hint": "hidden",
-	"workbench.statusBar.visible": false,
-	"workbench.tips.enabled": false,
-	"workbench.sideBar.location": "right",
-	"workbench.tree.enableStickyScroll": false,
-	"workbench.tree.renderIndentGuides": "none",
-	"workbench.secondarySideBar.defaultVisibility": "hidden",
-	"workbench.layoutControl.enabled": false,
-	"workbench.navigationControl.enabled": false,
-
-	/* Breadcrumbs */
-	"breadcrumbs.enabled": false,
-	"breadcrumbs.symbolPath": "off",
-	"breadcrumbs.filePath": "off",
-
-	/* Editor */
-	"editor.fontFamily": "'JetBrains Mono', 'Fira Code Retina'",
-	"editor.fontSize": 16,
-	"editor.fontWeight": "500",
-	"editor.lineHeight": 2,
-	"editor.lineNumbers": "relative",
-	"editor.folding": true,
-	"editor.glyphMargin": true,
-	"editor.guides.indentation": false,
-	"editor.guides.highlightActiveIndentation": true,
-	"editor.guides.bracketPairs": true,
-	"editor.guides.highlightActiveBracketPair": true,
-	"editor.guides.bracketPairsHorizontal": false,
-	"editor.scrollbar.horizontal": "hidden",
-	"editor.unicodeHighlight.ambiguousCharacters": false,
-	"editor.unicodeHighlight.invisibleCharacters": false,
-	"editor.cursorStyle": "block",
-	"editor.cursorBlinking": "smooth",
-	"editor.cursorSmoothCaretAnimation": "on",
-	"editor.minimap.enabled": false,
-	"editor.wordWrap": "on",
-	"editor.stickyScroll.enabled": false,
-	"editor.smoothScrolling": true,
-	"editor.stickyScroll.scrollWithEditor": false,
-	"editor.fontLigatures": true,
-
-	/* Terminal */
-	"terminal.integrated.defaultProfile.osx": "zsh",
-	"terminal.integrated.defaultProfile.windows": "PowerShell",
-	"terminal.integrated.defaultProfile.linux": "bash",
-	"terminal.integrated.fontFamily": "'MesloLGS NF', 'Hack Nerd Font'",
-	"terminal.integrated.fontSize": 16,
-	"terminal.integrated.enableMultiLinePasteWarning": "always",
-	"terminal.integrated.cursorStyle": "block",
-	"terminal.integrated.cursorBlinking": true,
-	"terminal.integrated.fontLigatures.enabled": true,
-
-	/* Explorer */
-	"explorer.compactFolders": false,
-	"explorer.confirmDragAndDrop": false,
-
-	/* Chat */
-	"chat.commandCenter.enabled": false,
-
-	/* Window */
-	"window.restoreFullscreen": true,
-    "window.zoomLevel": 1,
-	
-    /* VSCode Custom */
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[tailwindcss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.filePath": "off",
+    "breadcrumbs.symbolPath": "off",
+    "chat.editor.wordWrap": "on",
+    "codesnap.backgroundColor": "#8D82BD",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+    "codesnap.containerPadding": "8em",
+    "codesnap.roundedCorners": true,
+    "codesnap.showLineNumbers": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "diffEditor.wordWrap": "on",
+    "editor.accessibilitySupport": "off",
+    "editor.autoIndentOnPaste": true,
+    "editor.colorDecorators": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorStyle": "block",
+    "editor.emptySelectionClipboard": false,
+    "editor.folding": true,
+    "editor.fontFamily": "JetBrains Mono, Fira Code, monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.formatOnSave": true,
+    "editor.glyphMargin": true,
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": false,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": "on",
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.lightbulb.enabled": "off",
+    "editor.lineHeight": 2,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.matchBrackets": "never",
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 250,
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.padding.top": 16,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.renderControlCharacters": false,
+    "editor.renderLineHighlight": "none",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.selectionHighlight": false,
+    "editor.smoothScrolling": true,
+    "editor.snippetSuggestions": "top",
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "editor.suggestFontSize": 16,
+    "editor.suggestLineHeight": 30,
+    "editor.tabSize": 4,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "keyword",
+                    "variable.language",
+                    "entity.other.attribute-name.html",
+                    "entity.other.attribute-name",
+                    "keyword.control",
+                    "storage.type",
+                    "comment",
+                    "comment.block",
+                    "comment.line"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 120,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.sortOrder": "type",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "htmltagwrap.tag": "div",
+    "json.schemaDownload.trustedDomains": {
+        "https://biomejs.dev": true,
+        "https://developer.microsoft.com/json-schemas/": true,
+        "https://esm.sh": true,
+        "https://json-schema.org/": true,
+        "https://json.schemastore.org/": true,
+        "https://raw.githubusercontent.com/devcontainers/spec/": true,
+        "https://raw.githubusercontent.com/microsoft/vscode/": true,
+        "https://schemastore.azurewebsites.net/": true,
+        "https://www.schemastore.org/": true
+    },
+    "notebook.output.wordWrap": true,
+    "prettier.requireConfig": true,
+    "prettier.useEditorConfig": false,
+    "prettier.useTabs": true,
+    "problems.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "svelte.enable-ts-plugin": true,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.enableMultiLinePasteWarning": "always",
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.fontFamily": "Hack Nerd Font Mono, JetBrains Mono, Fira Code, monospace",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.initialHint": false,
+    "terminal.integrated.lineHeight": 1.5,
     "vscode_custom_css.imports": [
-		/**
+        /**
 		 * Add your custom CSS and JS files here.
 		 *
 		 * Get details at Custom CSS and JS Loader:
@@ -80,5 +162,26 @@
 		 */
         "file:///C:/Users/aziz-prasetyo/.vscode/vscode-custom/styles.css",
         "file:///C:/Users/aziz-prasetyo/.vscode/vscode-custom/scripts.js"
-	]
+    ],
+    "window.menuBarVisibility": "toggle",
+    "window.newWindowProfile": "Default",
+    "window.restoreFullscreen": true,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.showTabs": "single",
+    "workbench.editorLargeFileConfirmation": 1024,
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.renderIndentGuides": "none"
 }

@@ -1,19 +1,19 @@
-/* Globals */
+/* Properties */
 @property --gradient-angle {
     syntax: '<angle>';
     initial-value: 0deg;
     inherits: false;
 }
 
-@property --arc-start-percentage {
-    syntax: '<percentage>';
-    initial-value: 0%;
+@property --breathing-angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
     inherits: false;
 }
 
-@property --arc-end-percentage {
-    syntax: '<percentage>';
-    initial-value: 1%;
+@property --arc-length {
+    syntax: '<angle>';
+    initial-value: 45deg;
     inherits: false;
 }
 
@@ -21,8 +21,8 @@
 .monaco-scrollable-element canvas.decorationsOverviewRuler,
 .monaco-scrollable-element>.scrollbar,
 .monaco-scrollable-element>.scrollbar>.slider {
-    width: 8px !important;
-    border-radius: 8px !important;
+    width: 6px !important;
+    border-radius: 999px !important;
 }
 
 /* Reset Font Family */
@@ -156,7 +156,7 @@ li.action-item.icon.checked:hover a.action-label.codicon {
     margin-left: 4px !important;
 }
 
-.show-file-icons .folder-icon::before, 
+.show-file-icons .folder-icon::before,
 .show-file-icons .rootfolder-icon::before {
     filter: brightness(0.75);
 }
@@ -176,21 +176,21 @@ li.action-item.icon.checked:hover a.action-label.codicon {
 .quick-input-widget {
     border-radius: 14px !important;
     border: 4px solid transparent !important;
-    background: 
+    background:
         linear-gradient(
-            var(--vscode-quickInput-background), 
+            var(--vscode-quickInput-background),
             var(--vscode-quickInput-background)
         ) padding-box,
         conic-gradient(
-            from var(--gradient-angle),
-            transparent var(--arc-start-percentage),
-            var(--vscode-editorBracketHighlight-foreground5),
-            var(--vscode-editorBracketHighlight-foreground6) var(--arc-end-percentage),
-            transparent var(--arc-end-percentage)
+            from calc(var(--gradient-angle) + var(--breathing-angle)),
+            transparent 0deg,
+            var(--vscode-editorBracketHighlight-foreground5) calc(var(--arc-length) * 0.6),
+            var(--vscode-editorBracketHighlight-foreground6) var(--arc-length),
+            transparent var(--arc-length)
         ) border-box;
-    animation: 
+    animation:
         spin-border 2s linear infinite,
-        arc-loader 1.5s ease-in-out infinite;
+        arc-loader 1.6s ease-in-out infinite;
     min-height: 58px !important;
     box-shadow: 0px 0px 12px 6px var(--vscode-widget-shadow) !important;
 }
@@ -287,7 +287,8 @@ li.action-item.icon.checked:hover a.action-label.codicon {
     mask-position: center center !important;
     -webkit-mask-size: auto !important;
     mask-size: auto !important;
-    opacity: 0.75;
+    opacity: 0.60;
+    max-width: unset !important;
 }
 
 .monaco-workbench .part.editor>.content .editor-group-container>.editor-group-watermark .shortcuts {
@@ -341,13 +342,10 @@ li.action-item.icon.checked:hover a.action-label.codicon {
     background-color: var(--vscode-editorWidget-background) !important;
 }
 
-/* Notifications */
-.notifications-list-container .monaco-list.mouse-support .monaco-list-row {
-    border-radius: 0;
+/* Toast */
+.monaco-list.mouse-support .monaco-list-row {
     width: 100%;
-    padding-right: 0 !important;
-    padding-left: 0 !important;
-    margin-left: 0 !important;
+    margin-left: 0px !important;
 }
 
 /* Terminal */
@@ -373,16 +371,16 @@ li.action-item.icon.checked:hover a.action-label.codicon {
 
 @keyframes arc-loader {
     0% {
-        --arc-start-percentage: 0%;
-        --arc-end-percentage: 1%;
+        --breathing-angle: 0deg;
+        --arc-length: 45deg;
     }
     50% {
-        --arc-start-percentage: 25%;
-        --arc-end-percentage: 100%;
+        --breathing-angle: 90deg;
+        --arc-length: 225deg;
     }
     100% {
-        --arc-start-percentage: 100%;
-        --arc-end-percentage: 101%;
+        --breathing-angle: 360deg;
+        --arc-length: 45deg;
     }
 }
 
@@ -390,7 +388,6 @@ li.action-item.icon.checked:hover a.action-label.codicon {
     0% {
         transform: scale(.75)
     }
-
     100% {
         transform: scale(1.25) translateX(-3px);
     }
