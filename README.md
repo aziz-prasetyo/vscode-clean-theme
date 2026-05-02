@@ -146,6 +146,4 @@ If you run into any problems during setup or have questions, please feel free to
 
 ---
 
-<div align="center">
-    <p>Muhammad Aziz Prasetyo @ 2025</p>
-</div>
+<p align="center">© 2026 izpsrtyo</p>
