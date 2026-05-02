@@ -1,6 +1,4 @@
-<div align="center">
-    <h1>🎨VS Code Clean Theme🎨</h1>
-</div>
+<h1 align="center">VS Code Clean Theme</h1>
 
 ## Description
 
@@ -8,22 +6,22 @@ A custom CSS, JS, and JSON (settings configuration) for Visual Studio Code desig
 
 ## Key Features
 
-- **Minimalist Interface**  
+- **Minimalist Interface**
 Hides the status bar, breadcrumbs, and uses single large tab to maximize screen real estate for your code.
 
-- **Animated Command Palette**  
+- **Animated Command Palette**
 The command palette features a stylish, animated gradient border and a frosted glass (blur) background effect, making it a central and elegant UI piece.
 
-- **Frosted Glass Effect**  
+- **Frosted Glass Effect**
 A custom JavaScript dynamically applies a blur effect to the workbench whenever the command palette is opened, improving focus.
 
-- **Redesigned Activity Bar**  
+- **Redesigned Activity Bar**
 Icons are centered, enlarged, and have a rounded selection indicator for a clean, modern look. The sidebar is moved to the right for a less intrusive experience.
 
-- **Custom Welcome Screen**  
+- **Custom Welcome Screen**
 The default startup screen is replaced with a clean, custom SVG logo, maintaining the minimalist aesthetic even when no files are open.
 
-- **Enhanced Readability**  
+- **Enhanced Readability**
 Carefully selected fonts and line height settings (`JetBrains Mono` and `MesloLGS NF`) ensure code is easy to read and beautiful to look at.
 
 - **Consistent Styling**
@@ -46,16 +44,16 @@ You must install the following extensions and fonts before proceeding. Otherwise
 
 #### VS Code Extensions
 
-1) **[Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)**  
+1) **[Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)**
 This is the core extension that enables loading custom CSS and JavaScript files.
 
-2) **[Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)**  
+2) **[Catppuccin for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc)**
 Provides the `Catppuccin Frappé` color theme used in the settings.
 
-3) **[Catppuccin Icons for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)**  
+3) **[Catppuccin Icons for VSCode](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc-icons)**
 Supplies the Catppuccin icon theme, ensuring a cohesive and visually appealing set of icons throughout the editor.
 
-4) **[Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)**  
+4) **[Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)**
 The product icon theme used for a consistent UI.
 
 #### Fonts
@@ -73,16 +71,16 @@ You can download the required fonts from the `fonts` directory included in this 
 #### Step 1: Place Custom Files
 
 1) Create a dedicated folder for your VS Code custom files. A common location is in your **user home** directory.
-    - **Windows**  
-        Create a folder at `C:\Users\YourUsername\.vscode\vscode-custom`. Replace `YourUsername` with your actual Windows username.  
+    - **Windows**
+        Create a folder at `C:\Users\YourUsername\.vscode\vscode-custom`. Replace `YourUsername` with your actual Windows username.
 
         Example:
         ```
         C:\Users\aziz-prasetyo\.vscode\vscode-custom
         ```
 
-    - **MacOS/Linux**  
-        Create a folder at `~/.vscode/vscode-custom`.  
+    - **MacOS/Linux**
+        Create a folder at `~/.vscode/vscode-custom`.
 
         You can do this from the terminal with:
         ```sh
@@ -99,7 +97,7 @@ You can download the required fonts from the `fonts` directory included in this 
 
 2) Copy the entire content of the provided `settings.json` file from this repository and paste it into your own `settings.json` file.
 
-    >**IMPORTANT**  
+    >**IMPORTANT**
     You must update the file paths within the `vscode_custom_css.imports` setting to match the location where you saved your files in **[Step 1](#step-1-place-custom-files)**.
 
     For example:
@@ -109,7 +107,7 @@ You can download the required fonts from the `fonts` directory included in this 
         "file:///C:/Users/aziz-prasetyo/.vscode/vscode-custom/styles.css",
         "file:///C:/Users/aziz-prasetyo/.vscode/vscode-custom/scripts.js"
     ]
-    
+
     /* MacOS */
     "vscode_custom_css.imports": [
         "file:///Users/aziz-prasetyo/.vscode/vscode-custom/styles.css",
@@ -131,7 +129,7 @@ You can download the required fonts from the `fonts` directory included in this 
 
 3) Restart Visual Studio Code when prompted.
 
-    >**NOTE**  
+    >**NOTE**
     After enabling, VS Code may show a notification saying "Your Code installation is corrupt or has been modified". This is expected because the extension modifies core files to inject the custom CSS and JS. You can safely dismiss this warning by clicking the gear icon and choosing "Don't Show Again".
 
 You're all set! Enjoy your new clean and focused coding environment.
@@ -140,7 +138,7 @@ You're all set! Enjoy your new clean and focused coding environment.
 
 Feel free to tweak the `styles.css`, `scripts.js`, and `settings.json` files to match your personal preferences. The provided configuration is a great starting point for building your own perfect setup. You can change colors, animations, font sizes, or any other setting to your liking.
 
-> **IMPORTANT**  
+> **IMPORTANT**
 If you make any changes to your custom styles or scripts, you must run the command: `Reload Custom CSS and JS` from the Command Palette for your changes to take effect.
 
 ## Having Issues?
