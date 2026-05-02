@@ -146,4 +146,4 @@ If you run into any problems during setup or have questions, please feel free to
 
 ---
 
-<p align="center">© 2026 izpsrtyo</p>
+<p align="center">© 2026 izprstyo</p>
