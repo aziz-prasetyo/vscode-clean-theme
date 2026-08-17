@@ -403,7 +403,7 @@ li.action-item.icon.checked:hover a.action-label.codicon {
 
 @keyframes scaleSize {
     0% {
-        transform: scale(.75)
+        transform: scale(.75);
     }
     100% {
         transform: scale(1.25) translateX(-3px);
