@@ -25,6 +25,17 @@
     border-radius: 999px !important;
 }
 
+.quick-input-list .monaco-scrollable-element > .scrollbar.vertical {
+    right: 3px !important;
+}
+
+.quick-input-list .monaco-list-row {
+    border-radius: 4px;
+    width: calc(100% - 12px) !important;
+    margin-left: 2px !important;
+    margin-right: 10px !important;
+}
+
 /* Reset Font Family */
 .windows,
 .mac,
@@ -203,7 +214,7 @@ li.action-item.icon.checked:hover a.action-label.codicon {
         ) border-box;
     animation:
         spin-border 2s linear infinite,
-        arc-loader 1.6s ease-in-out infinite;
+        arc-loader 1.6s ease-in-out infinite !important;
     min-height: 58px !important;
     box-shadow: 0px 0px 12px 6px var(--vscode-widget-shadow) !important;
 }
