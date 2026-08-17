@@ -86,7 +86,7 @@
 }
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon {
-    border-radius: 12px !important;
+    border-radius: 10px !important;
 }
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked .active-item-indicator:before {
@@ -95,11 +95,10 @@
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item {
     background: var(--vscode-editor-lineHighlightBackground) !important;
-    border-radius: 12px;
+    border-radius: 10px;
     margin-bottom: 4px;
-    width: 36px;
-    height: 36px;
-    margin-left: 4px;
+    width: 32px;
+    height: 32px;
 }
 
 div#workbench.parts.activitybar {
@@ -121,7 +120,7 @@ li.action-item.icon:hover {
 
 li.action-item.icon.checked a.action-label.codicon {
     color: var(--vscode-focusBorder);
-    border-radius: 12px !important;
+    border-radius: 10px !important;
 }
 
 li.action-item.icon.checked:hover a.action-label.codicon {
@@ -130,8 +129,8 @@ li.action-item.icon.checked:hover a.action-label.codicon {
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon,
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label:not(.codicon) {
-    width: 36px !important;
-    height: 36px !important;
+    width: 32px !important;
+    height: 32px !important;
 }
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label:not(.codicon) {
