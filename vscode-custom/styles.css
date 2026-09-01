@@ -137,8 +137,12 @@ li.action-item.icon:hover {
     color: var(--vscode-focusBorder) !important;
 }
 
-li.action-item.icon.checked a.action-label.codicon {
-    border-radius: 10px !important;
+.modern-ui .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked .action-label.uri-icon {
+    background-color: var(--vscode-focusBorder) !important;
+}
+
+.modern-ui .activitybar>.content:not(.dragged-over):not(.dragged-over-head):not(.dragged-over-tail) :not(.monaco-menu)>.monaco-action-bar .action-item:not(.checked):hover .action-label.uri-icon {
+    background-color: var(--vscode-focusBorder) !important;
 }
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon,
