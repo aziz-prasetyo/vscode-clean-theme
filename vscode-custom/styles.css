@@ -163,6 +163,10 @@ li.action-item.icon:hover {
     border-left-color: transparent !important;
 }
 
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .badge {
+    overflow: unset;
+}
+
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .badge .badge-content {
     position: absolute;
     top: 16px;
