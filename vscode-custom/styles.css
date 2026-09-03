@@ -104,12 +104,15 @@
     border-left-color: transparent !important;
 }
 
-.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item {
+.monaco-workbench.floating-panels .part.activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item {
     background: var(--vscode-editor-lineHighlightBackground) !important;
     border-radius: 10px;
     margin-bottom: 4px;
-    width: 32px;
-    height: 32px;
+    width: unset;
+}
+
+.monaco-workbench.floating-panels .part.activitybar>.content .monaco-action-bar .action-item+.action-item {
+    margin-top: unset;
 }
 
 div#workbench.parts.activitybar {
@@ -147,8 +150,8 @@ li.action-item.icon:hover {
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon,
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label:not(.codicon) {
-    width: 32px !important;
-    height: 32px !important;
+    width: 34px !important;
+    height: 34px !important;
 }
 
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label:not(.codicon) {
