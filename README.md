@@ -131,6 +131,9 @@ You can download the required fonts from the `fonts` directory included in this 
     >**NOTE**
     After enabling, VS Code may show a notification saying "Your Code installation is corrupt or has been modified". This is expected because the extension modifies core files to inject the custom CSS and JS. You can safely dismiss this warning by clicking the gear icon and choosing "Don't Show Again".
 
+    >**IMPORTANT**
+    After every Visual Studio Code update, you must run the `Reload Custom CSS and JS` command from the Command Palette to reload the extension and reapply your custom CSS and JS.
+
 You're all set! Enjoy your new clean and focused coding environment.
 
 ## Customization
