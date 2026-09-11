@@ -32,6 +32,7 @@ Custom styles are applied to scrollbars, the sidebar, find widget, and other UI 
 ![Welcome Screen](./assets/preview/welcome-screen.png)
 ![Editor Command Palette Close](./assets/preview/editor-command-palette-close.png)
 ![Editor Command Palette Open](./assets/preview/editor-command-palette-open.png)
+![Editor Terminal Open](./assets/preview/editor-terminal-open.png)
 
 ## Installation & Setup
 
