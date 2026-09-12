@@ -76,7 +76,7 @@ You can download the required fonts from the `fonts` directory included in this 
 
         Example:
         ```
-        C:\Users\aziz-prasetyo\.vscode\vscode-custom
+        C:\Users\izprstyo\.vscode\vscode-custom
         ```
 
     - **MacOS/Linux**
@@ -104,20 +104,20 @@ You can download the required fonts from the `fonts` directory included in this 
     ```json
     /* Windows */
     "vscode_custom_css.imports": [
-        "file:///C:/Users/aziz-prasetyo/.vscode/vscode-custom/styles.css",
-        "file:///C:/Users/aziz-prasetyo/.vscode/vscode-custom/scripts.js"
+        "file:///C:/Users/izprstyo/.vscode/vscode-custom/styles.css",
+        "file:///C:/Users/izprstyo/.vscode/vscode-custom/scripts.js"
     ]
 
     /* MacOS */
     "vscode_custom_css.imports": [
-        "file:///Users/aziz-prasetyo/.vscode/vscode-custom/styles.css",
-        "file:///Users/aziz-prasetyo/.vscode/vscode-custom/scripts.js"
+        "file:///Users/izprstyo/.vscode/vscode-custom/styles.css",
+        "file:///Users/izprstyo/.vscode/vscode-custom/scripts.js"
     ]
 
     /* Linux */
     "vscode_custom_css.imports": [
-        "file:///home/aziz-prasetyo/.vscode/vscode-custom/styles.css",
-        "file:///home/aziz-prasetyo/.vscode/vscode-custom/scripts.js"
+        "file:///home/izprstyo/.vscode/vscode-custom/styles.css",
+        "file:///home/izprstyo/.vscode/vscode-custom/scripts.js"
     ]
     ```
 
