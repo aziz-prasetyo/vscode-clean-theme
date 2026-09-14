@@ -188,27 +188,32 @@ Install the fonts at the operating-system level before opening VS Code again. If
 
    For example:
 
-   ```jsonc
-   /* Windows */
+   Windows
+   ```json
    "vscode_custom_css.imports": [
        "file:///C:/Users/izprstyo/.vscode/vscode-custom/styles.css",
        "file:///C:/Users/izprstyo/.vscode/vscode-custom/scripts.js"
    ]
+   ```
 
-   /* MacOS */
+   MacOS
+   ```json
    "vscode_custom_css.imports": [
        "file:///Users/izprstyo/.vscode/vscode-custom/styles.css",
        "file:///Users/izprstyo/.vscode/vscode-custom/scripts.js"
    ]
+   ```
 
-   /* Linux */
+   Linux
+   ```json
    "vscode_custom_css.imports": [
        "file:///home/izprstyo/.vscode/vscode-custom/styles.css",
        "file:///home/izprstyo/.vscode/vscode-custom/scripts.js"
    ]
    ```
 
-   The examples above are JSONC snippets because the comments are included for platform labels. Do not add multiple `vscode_custom_css.imports` keys to the same settings file.
+   > **NOTE**
+   > Do not add multiple `vscode_custom_css.imports` keys to the same settings file.
 
 #### Step 3: Enable Custom CSS and JS
 
