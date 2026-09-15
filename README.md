@@ -26,7 +26,7 @@
 
 ## Overview
 
-This repository contains custom **CSS**, **JavaScript**, and **JSON/JSONC settings configuration** for Visual Studio Code. It is designed to create a clean, focused, and aesthetically pleasing coding environment by removing UI clutter and adding subtle, modern animations to enhance the user experience.
+This repository contains custom **CSS**, **JavaScript**, and **JSON settings configuration** for Visual Studio Code. It is designed to create a clean, focused, and aesthetically pleasing coding environment by removing UI clutter and adding subtle, modern animations to enhance the user experience.
 
 The setup is intentionally provided as a starting point: you can use the included appearance and editor preferences as-is, or adjust the colors, animations, fonts, and other settings to match your workflow.
 
