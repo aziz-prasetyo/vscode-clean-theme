@@ -142,7 +142,7 @@ Install the fonts at the operating-system level before opening VS Code again. If
 
    - **Windows**
 
-     Create a folder at `C:\Users\YourUsername\.vscode\vscode-custom`. Replace `YourUsername` with your actual Windows username.
+     Create a folder at `C:\Users\your-username\.vscode\vscode-custom`. Replace `your-username` with your actual Windows username.
 
      Example:
 
@@ -169,7 +169,7 @@ Install the fonts at the operating-system level before opening VS Code again. If
    <your-user-home>/.vscode/vscode-custom/scripts.js
    ```
 
-   On Windows, use the equivalent `C:\Users\YourUsername\.vscode\vscode-custom\` path.
+   On Windows, use the equivalent `C:\Users\your-username\.vscode\vscode-custom\` path.
 
 > **Tip:** Back up your current VS Code settings and custom files before replacing or editing them. This makes it easier to revert the setup if necessary.
 
