@@ -273,6 +273,9 @@ Common customization points include:
 - If a VS Code update disables the customization, run `Enable Custom CSS and JS` again, restart VS Code, and then reload the custom files.
 - Recheck the `vscode_custom_css.imports` paths if any custom files are moved or renamed.
 
+> **COMPATIBILITY NOTE**
+> This repository will be updated as soon as possible after each Visual Studio Code update. Styles and UI structure can change between releases, which may cause the custom styles or scripts to stop working or require adjustments. Please check for the latest repository changes after updating Visual Studio Code and apply any available fixes.
+
 ## Troubleshooting
 
 ### Custom styling does not appear
