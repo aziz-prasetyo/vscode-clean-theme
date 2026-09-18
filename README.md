@@ -10,6 +10,7 @@
 - [Key Features](#key-features)
 - [Preview](#preview)
 - [Repository Contents](#repository-contents)
+- [Compatibility](#compatibility)
 - [Installation and Setup](#installation-and-setup)
   - [Prerequisites](#1-prerequisites)
   - [Configuration Steps](#2-configuration-steps)
@@ -90,6 +91,14 @@ The most relevant files and directories are:
 ```
 
 The `fonts` directory includes the font files referenced by this setup. The custom files that must be loaded by the extension are `vscode-custom/styles.css` and `vscode-custom/scripts.js`.
+
+## Compatibility
+
+The current configuration and custom code are used with:
+
+- **Visual Studio Code:** `1.138.0`
+
+This version records the VS Code version used for the current setup. The appearance and behavior may differ on other versions because the custom CSS and JavaScript target VS Code's internal UI structure. See [Maintenance and Updates](#maintenance-and-updates) for information about updates and compatibility fixes.
 
 ## Installation and Setup
 
@@ -273,7 +282,7 @@ Common customization points include:
 - If a VS Code update disables the customization, run `Enable Custom CSS and JS` again, restart VS Code, and then reload the custom files.
 - Recheck the `vscode_custom_css.imports` paths if any custom files are moved or renamed.
 
-> **COMPATIBILITY NOTE**
+> **Compatibility note**
 > This repository will be updated as soon as possible after each Visual Studio Code update. Styles and UI structure can change between releases, which may cause the custom styles or scripts to stop working or require adjustments. Please check for the latest repository changes after updating Visual Studio Code and apply any available fixes.
 
 ## Troubleshooting
